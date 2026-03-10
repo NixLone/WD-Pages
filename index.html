@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Никита и Ольга — Свадебное приглашение</title>
+    <meta name="description" content="Свадебное приглашение Никиты и Ольги. 21 августа 2026, Чебоксары." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+
+    <header class="topbar" id="top">
+      <div class="container topbar-inner">
+        <a class="monogram" href="#top">Н ♡ О</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню">
+          <span></span><span></span>
+        </button>
+        <nav class="nav" id="main-nav">
+          <a href="#invitation">Приглашение</a>
+          <a href="#details">Детали</a>
+          <a href="#timer">Таймер</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-media parallax" data-speed="0.18"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-rays"></div>
+        <div class="hero-floral floral-left parallax" data-speed="0.09"></div>
+        <div class="hero-floral floral-right parallax" data-speed="0.13"></div>
+
+        <div class="container hero-content reveal">
+          <p class="kicker">Вместе с нашими семьями</p>
+          <h1>Никита <span>&</span> Ольга</h1>
+          <p class="hero-date">21 августа 2026</p>
+          <p class="hero-place">Чебоксары • Банкетный комплекс «Пять звезд» • зал «Ассоль»</p>
+
+          <div class="rings-wrap" aria-hidden="true">
+            <svg class="rings" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="ringStroke" x1="0" y1="0" x2="220" y2="64">
+                  <stop offset="0%" stop-color="#d7b983" />
+                  <stop offset="50%" stop-color="#f0ddbb" />
+                  <stop offset="100%" stop-color="#c6a36a" />
+                </linearGradient>
+              </defs>
+              <ellipse cx="84" cy="32" rx="40" ry="24" stroke="url(#ringStroke)" stroke-width="1.7"/>
+              <ellipse cx="136" cy="32" rx="40" ry="24" stroke="url(#ringStroke)" stroke-width="1.7"/>
+              <path d="M110 26.7C110 23.5 112.5 21 115.7 21C117.8 21 119.8 22.2 120.9 24.1C122 22.2 124 21 126.1 21C129.3 21 131.8 23.5 131.8 26.7C131.8 30.8 128.7 33.8 124.8 37L120.9 40.2L116.9 37C113.1 33.8 110 30.8 110 26.7Z" fill="#e8c996"/>
+            </svg>
+          </div>
+
+          <a class="hero-cta" href="#invitation">Смотреть приглашение</a>
+        </div>
+      </section>
+
+      <section class="invitation section reveal" id="invitation">
+        <div class="container invitation-paper">
+          <div class="paper-floral paper-floral-left" aria-hidden="true"></div>
+          <div class="paper-floral paper-floral-right" aria-hidden="true"></div>
+          <p class="kicker">Приглашение</p>
+          <h2>Будем рады видеть вас</h2>
+          <p>
+            Дорогие друзья и близкие! Мы будем счастливы разделить с вами один из самых важных дней нашей жизни.
+            Приходите за атмосферой тепла, улыбок и красивых воспоминаний.
+          </p>
+          <p class="note">Дресс-код: свободный, праздничный. Главное — ваше настроение ✨</p>
+        </div>
+      </section>
+
+      <section class="details section reveal" id="details">
+        <div class="container">
+          <p class="kicker">Детали</p>
+          <h2>Программа вечера</h2>
+
+          <div class="cards-grid">
+            <article class="event-card reveal bg-guests">
+              <div class="card-overlay"></div>
+              <div class="card-content">
+                <p class="time">16:30</p>
+                <h3>Сбор гостей</h3>
+                <p>Пожалуйста, приходите заранее, чтобы спокойно разместиться и настроиться на праздник.</p>
+              </div>
+            </article>
+
+            <article class="event-card reveal bg-ceremony">
+              <div class="card-overlay"></div>
+              <div class="card-content">
+                <p class="time">17:00</p>
+                <h3>Начало церемонии</h3>
+                <p>Самый трогательный момент вечера — будем рады вашим улыбкам и поддержке.</p>
+              </div>
+            </article>
+
+            <article class="event-card reveal bg-cake">
+              <div class="card-overlay"></div>
+              <div class="card-content">
+                <p class="time">21:00</p>
+                <h3>Праздничный торт</h3>
+                <p>Традиция, которую хочется разделить вместе. Не расходиться 🙂</p>
+              </div>
+            </article>
+
+            <article class="event-card reveal bg-end">
+              <div class="card-overlay"></div>
+              <div class="card-content">
+                <p class="time">22:00</p>
+                <h3>Окончание вечера</h3>
+                <p>Спасибо, что были с нами. Обнимемся на прощание и заберём эти эмоции с собой.</p>
+              </div>
+            </article>
+          </div>
+
+          <article class="venue-card reveal">
+            <p class="kicker">Место проведения</p>
+            <h3>Банкетный комплекс «Пять звезд», зал «Ассоль»</h3>
+            <p>Чебоксары</p>
+            <button class="future-map" type="button" disabled>Карта — скоро</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="countdown section" id="timer">
+        <div class="countdown-media parallax" data-speed="0.12"></div>
+        <div class="countdown-overlay"></div>
+        <div class="container countdown-inner reveal">
+          <p class="kicker">До встречи</p>
+          <h2>Мы считаем дни до праздника</h2>
+
+          <div class="countdown-grid" role="timer" aria-live="polite">
+            <div class="count-item">
+              <span id="days">00</span>
+              <small>дней</small>
+            </div>
+            <div class="count-item">
+              <span id="hours">00</span>
+              <small>часов</small>
+            </div>
+            <div class="count-item">
+              <span id="minutes">00</span>
+              <small>минут</small>
+            </div>
+            <div class="count-item">
+              <span id="seconds">00</span>
+              <small>секунд</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer reveal">
+      <div class="container">
+        <p class="monogram">Н ♡ О</p>
+        <p>21 августа 2026</p>
+        <p>Чебоксары</p>
+        <p class="footer-note">С любовью ждём вас на нашем празднике</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
