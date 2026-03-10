@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Никита и Ольга приглашают вас на свадебное торжество 21 августа 2026 года в Чебоксарах."
+    />
+    <title>Никита &amp; Ольга — Свадебное приглашение</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar" id="top">
+      <div class="container topbar__inner">
+        <a class="monogram shimmer-line" href="#hero" aria-label="На главную">Н <span>♡</span> О</a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" id="site-nav" aria-label="Основная навигация">
+          <a href="#invitation">Приглашение</a>
+          <a href="#details">Детали</a>
+          <a href="#countdown">Таймер</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="hero-media" data-parallax="0.12" aria-hidden="true"></div>
+        <div class="hero__vignette" aria-hidden="true"></div>
+        <div class="hero__sun-rays shimmer-rays" aria-hidden="true"></div>
+        <div class="hero__dust" data-parallax="0.06" aria-hidden="true"></div>
+        <div class="hero-floral hero-floral--left floating" data-parallax="0.08" aria-hidden="true"></div>
+        <div class="hero-floral hero-floral--right floating" data-parallax="0.07" aria-hidden="true"></div>
+
+        <div class="container hero__content reveal">
+          <p class="eyebrow">Вместе с нашими семьями</p>
+          <h1 id="hero-title">Никита <span>&amp;</span> Ольга</h1>
+          <p class="hero__date">21 августа 2026</p>
+          <p class="hero__place">Чебоксары • Банкетный комплекс «Пять звезд» • зал «Ассоль»</p>
+
+          <div class="rings-divider shimmer-line" aria-hidden="true">
+            <span class="line"></span>
+            <svg viewBox="0 0 170 60" role="img" aria-label="Декоративные свадебные кольца">
+              <g fill="none" stroke="currentColor" stroke-width="1.7">
+                <circle cx="64" cy="30" r="19"></circle>
+                <circle cx="106" cy="30" r="19"></circle>
+              </g>
+              <path
+                d="M85 36c-4.8-2.8-8.4-6-8.4-10.3a5.3 5.3 0 0 1 8.4-4.4 5.3 5.3 0 0 1 8.4 4.4c0 4.3-3.6 7.5-8.4 10.3z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            <span class="line"></span>
+          </div>
+
+          <a class="btn-primary" href="#invitation">Смотреть приглашение</a>
+        </div>
+      </section>
+
+      <section class="invitation section-paper reveal" id="invitation" aria-labelledby="invitation-title">
+        <div class="section-light-ray shimmer-rays" aria-hidden="true"></div>
+        <div class="container section-content">
+          <p class="eyebrow eyebrow--dark">Приглашение</p>
+          <h2 id="invitation-title">Будем рады видеть вас</h2>
+          <p>
+            Дорогие друзья и близкие! Мы будем счастливы разделить с вами один из самых важных дней нашей жизни.
+            Приходите за атмосферой тепла, улыбок и красивых воспоминаний.
+          </p>
+          <p class="note-pill">Дресс-код: свободный, праздничный. Главное — ваше настроение ✨</p>
+        </div>
+        <div class="floral floral--left floating" data-parallax="0.04" aria-hidden="true"></div>
+        <div class="floral floral--right floating" data-parallax="0.05" aria-hidden="true"></div>
+      </section>
+
+      <section class="schedule reveal" id="details" aria-labelledby="schedule-title">
+        <div class="section-light-ray shimmer-rays" aria-hidden="true"></div>
+        <div class="container">
+          <p class="eyebrow eyebrow--dark">Детали вечера</p>
+          <h2 id="schedule-title">Программа вечера</h2>
+
+          <div class="schedule-grid">
+            <article class="schedule-card bg-guests reveal">
+              <div class="schedule-card__overlay"></div>
+              <div class="schedule-card__glow"></div>
+              <div class="schedule-card__content">
+                <p class="schedule-card__time">16:30</p>
+                <h3>Сбор гостей</h3>
+                <p>Пожалуйста, приходите заранее, чтобы спокойно разместиться и настроиться на праздник.</p>
+              </div>
+            </article>
+
+            <article class="schedule-card bg-ceremony reveal">
+              <div class="schedule-card__overlay"></div>
+              <div class="schedule-card__glow"></div>
+              <div class="schedule-card__content">
+                <p class="schedule-card__time">17:00</p>
+                <h3>Начало церемонии</h3>
+                <p>Самый трогательный момент вечера — будем рады вашим улыбкам и поддержке.</p>
+              </div>
+            </article>
+
+            <article class="schedule-card bg-cake reveal">
+              <div class="schedule-card__overlay"></div>
+              <div class="schedule-card__glow"></div>
+              <div class="schedule-card__content">
+                <p class="schedule-card__time">21:00</p>
+                <h3>Праздничный торт</h3>
+                <p>Традиция, которую хочется разделить вместе. Не расходиться 🙂</p>
+              </div>
+            </article>
+
+            <article class="schedule-card bg-end reveal">
+              <div class="schedule-card__overlay"></div>
+              <div class="schedule-card__glow"></div>
+              <div class="schedule-card__content">
+                <p class="schedule-card__time">22:00</p>
+                <h3>Окончание вечера</h3>
+                <p>Спасибо, что были с нами. Обнимемся на прощание и заберём эти эмоции с собой.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="location section-paper reveal" aria-labelledby="location-title">
+        <div class="section-light-ray shimmer-rays" aria-hidden="true"></div>
+        <div class="container section-content">
+          <p class="eyebrow eyebrow--dark">Место проведения</p>
+          <h2 id="location-title">Место проведения</h2>
+
+          <article class="venue-card shimmer-line">
+            <h3>Банкетный комплекс «Пять звезд», зал «Ассоль»</h3>
+            <p>Чебоксары</p>
+            <div class="venue-card__future">Место для будущей кнопки карты</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="countdown reveal" id="countdown" aria-labelledby="countdown-title">
+        <div class="countdown__bg" data-parallax="0.08" aria-hidden="true"></div>
+        <div class="countdown__overlay" aria-hidden="true"></div>
+        <div class="countdown__ray shimmer-rays" aria-hidden="true"></div>
+
+        <div class="container countdown__content">
+          <p class="eyebrow">До начала церемонии</p>
+          <h2 id="countdown-title">С нетерпением ждём встречи</h2>
+          <div class="timer" role="timer" aria-live="polite">
+            <div class="timer-item shimmer-line"><span id="days">0</span><small>дней</small></div>
+            <div class="timer-item shimmer-line"><span id="hours">0</span><small>часов</small></div>
+            <div class="timer-item shimmer-line"><span id="minutes">0</span><small>минут</small></div>
+            <div class="timer-item shimmer-line"><span id="seconds">0</span><small>секунд</small></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__content">
+        <p class="footer__monogram">Н ♡ О</p>
+        <p>21 августа 2026</p>
+        <p>Чебоксары</p>
+        <p class="footer__note">С любовью ждём вас на нашем празднике</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
