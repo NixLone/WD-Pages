@@ -62,7 +62,7 @@ function updateParallax() {
   ticking = false;
 }
 
-function requestParallaxUpdate() {
+function onScroll() {
   latestScrollY = window.scrollY;
   if (!ticking) {
     window.requestAnimationFrame(updateParallax);
@@ -70,9 +70,9 @@ function requestParallaxUpdate() {
   }
 }
 
-if (parallaxElements.length > 0) {
-  window.addEventListener('scroll', requestParallaxUpdate, { passive: true });
-  requestParallaxUpdate();
+if (parallaxElements.length) {
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
 }
 
 const targetDate = new Date('2026-08-21T17:00:00+03:00').getTime();
